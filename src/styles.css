@@ -1,0 +1,182 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.app {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.restaurant-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.restaurant-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.restaurant-item {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+}
+
+.image-placeholder {
+  width: 100%;
+  height: 150px;
+  background-color: #ccc; /* Placeholder color */
+  border-radius: 8px;
+}
+
+h3 {
+  margin: 10px 0;
+}
+
+.cuisine {
+  font-size: 14px;
+  color: #666;
+}
+
+.rating {
+  margin: 5px 0;
+}
+
+.status {
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.status.open {
+  background-color: #28a745;
+  color: white;
+}
+
+.status.closed {
+  background-color: #dc3545;
+  color: white;
+}
+
+.learn-more {
+  margin-top: 10px;
+  padding: 10px 15px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.learn-more:hover {
+  background-color: #0056b3;
+}
+
+.load-more {
+  margin: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.load-more:hover {
+  background-color: #0056b3;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #ddd;
+}
+
+.filter-options {
+  display: flex;
+  align-items: center;
+}
+
+.filter-options label {
+  margin-right: 15px;
+}
+
+.filter-options button {
+  margin-right: 15px;
+  padding: 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.filter-options button:hover {
+  background-color: #0056b3;
+}
+
+.search-form {
+  display: flex;
+}
+
+.search-form input {
+  padding: 10px;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-form button {
+  padding: 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-form button:hover {
+  background-color: #0056b3;
+}
+
+.filter-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.filter-navigation label {
+  margin-right: 15px;
+}
+
+.filter-navigation select {
+  margin-right: 15px;
+}
+
+.filter-navigation button {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.filter-navigation button:hover {
+  background-color: #e0e0e0;
+}

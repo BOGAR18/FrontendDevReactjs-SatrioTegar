@@ -1,0 +1,86 @@
+/* Container for the entire filter navigation */
+.filter-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    flex-wrap: wrap;
+}
+
+/* Wrapper for the filter elements */
+.filters-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%; /* Ensure the container spans full width */
+}
+
+/* Style for each filter select dropdown */
+.filter-select {
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+    width: 250px; /* Adjusted width for consistency */
+}
+
+.filter-select:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+/* Style for the "Open Now" checkbox label */
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #333;
+}
+
+.checkbox-input {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* Container for the actions section */
+.filter-actions {
+    display: flex;
+    justify-content: flex-end; /* Align to the right */
+    margin-left: auto; /* Push the actions to the right */
+}
+
+/* Style for the "Clear All" button */
+.clear-btn {
+    margin-top: -50px;
+    padding: 12px 20px; /* Match padding with the select */
+    font-size: 16px;
+    border-radius: 6px;
+    border: none;
+    background-color: #ff5c5c;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 250px; /* Adjust width to match other elements */
+    text-align: center; /* Ensure text is centered */
+}
+
+.clear-btn:hover {
+    background-color: #e04e4e;
+}
+
+.clear-btn.active {
+    background-color: #ff0000;
+}
+
+.clear-btn.active:hover {
+    background-color: #0056b3;
+}
