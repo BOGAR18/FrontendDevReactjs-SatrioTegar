@@ -1,0 +1,13 @@
+"react": v19.0.0,
+"node": v23.6.0
+
+Cara menjalankan project
+1. Buka folder restaurant di code editor
+2. kemudian jalankan terminal nya dengan menuliskan kode "npm start"
+
+
+GITHUB:
+https://github.com/BOGAR18/FrontendDevReactjs-SatrioTegar.git
+
+WEB:
+https://restaurant-januari2025.netlify.app/
